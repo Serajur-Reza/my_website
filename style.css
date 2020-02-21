@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    height: 500px;
+    margin-top: 2%;
+}
+
+.top-intro{
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+#heading-name{
+    color: rgb(111, 111, 228);
+}
+
+.useful-links{
+    background-image: linear-gradient(180deg, greenyellow, green);
+    color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.pro-pic{
+    height:50%;
+    width:70%;
+}
+
+.biography{
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+}
+
+#work-heading , #heading{
+    text-align: center;
+}
+
+.works{
+    margin-left: 2.5%;
+    width:30%;
+    float: left;
+}
+
+.compliments{
+    text-align: center;
+    font-size: large;
+    background-image: url('images/footer-bg.png');
+    background-size: contain;
+}
+
+.email{
+    background-color: royalblue;
+    width: 50%;
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.email p{
+    font-size: large;
+}
+
+footer{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
